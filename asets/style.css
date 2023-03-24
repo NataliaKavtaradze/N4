@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: BPG Glaho;
+  src: url("./bpg_glaho.ttf");
+}
+
+@font-face {
+  font-family: Arial GEO;
+  src: url("./arial_geo.ttf");
+}
+
+
+header {
+  display: flex;
+  height: 145px;
+  background-color: #8BE8F5;
+}
+
+.logo-wrapper {
+  width: 150px;
+  height: 47.77px;
+  margin-top: 45.9px;
+  margin-left: 118px;
+  margin-right: 492px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: 119px;
+}
+
+.nav-links {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item a {
+  /* display: inline-block; */
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #FFEF5E;
+  font-family: BPG Glaho;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+main {
+  padding-top: 28px;
+  padding-left: 118px;
+  padding-right: 119px;
+  background-color: rgba(242, 155, 244, 0.37)
+}
+
+h3 {
+  font-family: BPG Glaho;
+  font-weight: 700;
+  font-size: 32px;
+  color: #750606;
+}
+
+p {
+  font-family: Arial GEO;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32.86px;
+  color: #410E0E;
+  padding-top: 25px;
+}
+
+.img-container {
+  margin-top: 70px;
+  margin-left: 118px;
+  margin-right: 119px;
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  font-family: Arial GEO;
+  font-weight: 400;
+  font-size: 24px;
+  color: #EE4036;
+  margin-top: 28px;
+}
+
+.imgs {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: 70px;
+  background-color: #FFEF5E;
+  height: 122px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
+
+}
+
+.icon {
+  margin-left: 40px;
+  margin-right: 40px;
+}
